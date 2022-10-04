@@ -1,0 +1,13 @@
+@import '../../../styles/variables.module.scss';
+
+.button {
+    border: 2px solid $darkBlue;
+    padding: 4px 8px;
+    font-size: $mediumFont;
+    border-radius: 20px;
+
+    &Small {
+        font-size: $smallFont;
+    }
+}
+
